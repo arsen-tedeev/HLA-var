@@ -11,11 +11,8 @@ c_names = []
 
 for i in names:
     unique_list.append(i[:-4].strip())
-print(unique_list)
-print(len(unique_list))
-unique_list =  list(dict.fromkeys(unique_list))
-print(unique_list)
-print(len(unique_list))
+
+unique_list =  list(dict.fromkeys(unique_list)) #thus, alleles would differ by first set of digits
 
 for name in unique_list:
     if str("A") in name:
