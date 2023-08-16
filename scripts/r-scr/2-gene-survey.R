@@ -30,7 +30,7 @@ HLA_C_aln <- readAAStringSet("./output/hla_c.fasta") %>%
   msaConvert("bios2mds::align")
 
 #
-# all rows of the matrix then are combinated pairwise (for pairwise comparisons), 
+# all rows of the matrix then are combined pairwise (for pairwise comparisons), 
 # and these pairs are placed under each other in matrix 
 # (brief explanation: rows 1 and 2 - one pair, rows 3 and 4 - another pair etc.)
 #
